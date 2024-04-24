@@ -3,7 +3,7 @@ Header (
 	product("TimingDesigner") 
 	rev("9.2") 
 	file("e:/exam/input_buffer2.td") 
-	date("04/24/2024") time("23:53") 
+	date("04/24/2024") time("23:56") 
 	format("9.0") 
 	baseScale(1000.000000) 
 	zoomFactor("0.00031643") 
@@ -12,7 +12,7 @@ Header (
 	nameFrameWidth(184) 
 	simHDL(Verilog) 
 	simDelayMechanism(Transport) 
-	nextID(74) 
+	nextID(75) 
 	TimingAnalysisMethod(51) 
 	SDCVersion(0) 
 	
@@ -228,6 +228,14 @@ Waveform ( objectID(52) name("our_ready") minheight("0") edges(
 	(high,853000.000,853000.000), 
 	(low,1006000.000,1006000.000), 
 	(blank,1012690.143,1012690.143)) 
+	hdl( direction(internal) ) label(showDefault,"","H") )
+Waveform ( objectID(74) name("ready_to_upstream") minheight("0") edges(
+	(low,0.000,0.000,L), 
+	(high,59000.000,59000.000), 
+	(low,349000.000,349000.000), 
+	(high,552000.000,552000.000), 
+	(low,1004000.000,1004000.000), 
+	(blank,1017380.285,1017380.285)) 
 	hdl( direction(internal) ) label(showDefault,"","H") )
 EndCycleEvent ( objectID(1) name("end") time(2224.000000) showVert hideOnPrinter label(showDefault,"") fromLatestEnd toEarliestBegin  )
 CycleBar ( name(bar) label(showDefault,"") fromLatestEnd toEarliestBegin cycleColor(3) cycleLineStyle(0) showVert showVertAttach showHash lineHoriz  )
